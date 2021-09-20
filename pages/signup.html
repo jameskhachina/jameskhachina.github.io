@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>signup</title>
+	<style type="text/css">
+		
+		body
+		{
+			/*background-image: url(images/back.jpg);*/
+			background-color: brown;
+			filter: blur(px);
+			height: 100%;
+			-webkit-filter:blur(px);
+			/*background-repeat: no-repeat*/
+			background-size: cover;
+			background-position: center;
+			padding: 5px;
+		}
+		h1	
+		{
+			text-align: center;
+			margin-top: 0px;
+		}
+		form
+		{
+			background-color: green;
+			border: solid gray 5px;
+			width: 25%;
+			border-radius: 5px;
+			margin: 100px auto;
+			background: ;
+			padding: 50px;
+		}
+		ul 
+		{
+			    list-style-type: none;
+			    margin: 0;
+			    padding: 0;
+			    overflow: hidden;
+			    background-color:#003333;
+			    align-items: center;
+			    width: 100%;
+		}
+
+		li 
+		{
+		    float: left;
+		    border-right: 2px solid #bbb;
+		    margin-right: 2px; 
+
+		}
+
+		li a 
+		{
+		    display: inline-block;
+		    color: white;
+		    text-align: center;
+		    padding: 14px 16px;
+		    text-decoration: none;
+		}
+
+		li a:hover 
+		{
+		    background-color: #ff1a75;
+		}
+		table
+		{
+			align-content: center;
+			width: 100%;
+
+		}
+		td
+		{
+			box-shadow: :0 3px 0 red ;
+		}
+		.btn:hover
+		{
+			background-color: red;
+
+		}	
+		.btn
+		{
+			background-color: blue;
+			color: white;
+			font-weight: bold;
+		}	
+		.header
+		{
+			background-color: #1a3333;
+			color: white;
+			text-align: center;
+			top: 0px;
+			width: 100%;
+			padding: 5px;
+			margin-left: 2%;
+			margin-right: 10%;
+		}
+		header
+		{
+			height: 40%;
+		}
+		input
+		{
+			box-shadow: 1px 1px 2px 1px green;
+			border: 1px;
+		}
+
+		.row
+		{
+			padding-top: 30px;
+			color: #1a0000;
+
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h2>WELCOME TO <br>JIKAZE MICROFINANCE GROUP</h2>
+	</div>
+	
+	<form action="signup.php" method="POST">
+		<!-- display validation errors -->
+
+		<h2>JIKAZE MICROFINANCE GROUP</h2>
+		<div>
+		<ul>
+  		<li><a href="../index.html">Home</a></li>
+  		<li style="float:right"><a class="active" href="contactus.html">Contact Us</a></li>
+		</ul>
+	</div><br>
+	<!-- inputs for registration -->
+		<div class="header">
+	 	<h1>Register Your Account</h1>
+		<table align="center">
+				<tr>
+					<td>Full Names:</td>
+					<td><input type="names" name="names" class="textInput" placeholder="name..." value="" required></td>
+				</tr>
+				<tr>
+					<td>Email:</td>
+					<td><input type="email" name="email" class="textInput" placeholder="email..." value="" required></td>
+				</tr>
+				<tr>
+					<td>Phone No:</td>
+					<td><input type="phonenumber" minlength="10" maxlength="10" name="phonenumber" class="textInput" placeholder="phone number..." value="" required></td>
+				</tr>
+				<tr>
+					<td>Id No:</td>
+					<td><input type="idnumber" name="idnumber" class="textInput" placeholder="ld_no..." value="" required></td>
+				</tr>
+				<tr>
+					<td>Location:</td>
+					<td><input type="location" name="location" class="textInput" placeholder="location..." value="" required></td>
+				</tr>
+				<tr>
+					<td>Gender:</td>
+					<td><input type="radio" name="gender" value="Male" >Male<input type="radio" name="gender" value="Female">Female</td>
+				</tr>
+				<tr>
+					<td>Category:</td>
+					<td><input type="radio" name="category" value="Farmer" >Farmer<input type="radio" name="category"value="Microfinance">Microfinance</td>
+				</tr>
+				<tr>
+					<td>Password:</td>
+					<td><input type="password" name="password" minlength="8"  maxlength="12" class="textInput" placeholder="password..." value="" required></td>
+				</tr>
+				<tr>
+					<td>Confirm Password:</td>
+					<td><input type="password" name="confirmpassword" minlength="8"  maxlength="12" class="confirmpassword" placeholder="confirm..." value="" required></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td><input type="submit" name="register" value="Register" class="btn"></td>
+				</tr>
+			</table>
+
+		</div>
+		<br>
+			<br>
+			<div>
+			<a href="login.html" style="float: right;">Already a Member? Sign In</a>
+			</div>
+
+	</form>
+
+</body>
+<div class="row">
+		<footer >
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+                <p class="copyright">Copyright © 2021 JikazeMicrofinanceGroup</p>
+            </div>
+        </footer> 
+  	</div>
+</html>

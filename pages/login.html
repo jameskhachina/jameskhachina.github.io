@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>login</title>
+	 <style type="text/css">
+	 	
+
+	 	body
+		{
+			background-color: green;
+			height: 100vh;
+			background-size: cover;
+			background-position: center;
+		}
+	 	input
+		{
+			box-shadow: 1px 1px 2px 1px red;
+			border: 1px;
+		}
+	 	#btn
+		{
+			font-weight: bold;
+			background: #337ab7;
+			padding: 5px;
+			margin-left: 69%;
+			color: white;
+		}
+	 	h1
+		{
+			font-size: 20px;
+			font-style:;
+			text-align: center;
+			color: ;
+			font-family:courier;
+			font-style: italic;
+
+
+		}
+	 	form
+		{
+			background-color: brown;
+			border: solid gray 5px;
+			width: 18%;
+			border-radius: 5px;
+			margin: 100px auto;
+			background: ;
+			padding: 50px;
+
+
+		}
+
+		ul
+		{
+			float: right;
+			list-style-type: none;
+			margin-top: 25px;
+		}
+		
+		ul li
+		{
+			display: inline-block;
+		}
+	
+		ul li a
+		{
+			text-decoration: none;
+			color: #fff;
+			padding: 5px 20px;
+			border:2px solid #fff;
+			transition: 0.6s ease;
+			background-color:  #990000;
+
+		}
+		
+		ul li a:hover
+		{
+			background-color: #008000;
+			color: #000;
+		}
+
+		img
+		{
+			margin-left: 30%;
+			margin-right: 20%;
+			height: 128px;
+
+		}
+		.header
+		{
+			background-color: #1a3333;
+			color: white;
+			text-align: center;
+			top: 0px;
+			width: 100%;
+			padding: 5px;
+			margin-left: 2%;
+			margin-right: 10%;
+		}
+	 	.row
+		{
+			padding-top: 160px;
+			color: #1a0000;
+
+		}
+	 </style>
+</head>
+<body>
+
+	<div class="header">
+		<h2>WELCOME TO <br>JIINUE 01 MICROFINANCE GROUP</h2>
+	</div>
+		<br>
+		<div>
+				<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a href="aboutus.html">ABOUT</a></li>
+				<li><a href="contactus.html">CONTACT</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				
+			</ul>
+		</div>
+
+	
+	<form action="../index.html" method="POST" id="frm" class="col-md-12 contact_text">
+		<div>
+				<img src="../image/img1.jpg">
+		</div>
+		<br>
+		
+		<div>
+			<h1>JIINUE 01 MICROFINANCE GROUP</h1>
+		</div>
+		<br>
+
+		<table>
+			<tr>
+  					<td>Phone No:</td>
+  					<td><input type="text" id="phonenumber" name="phonenumber" placeholder="phonenumber..." value="" required></td>
+
+  				</tr>
+  				<tr>
+  					<td>Password:</td>
+  					<td><input type="password" id="pass" name="pass" minlength="8"  maxlength="10" placeholder="password..." value="" required></td>
+  					
+  				</tr>
+  				<tr>
+  					<td></td>
+  					<td><input type="submit" id="btn" value="Log In" name="btn_login"></td>
+  					
+  				</tr>
+
+		</table>
+		<br>
+			<a href="request.php" style="float: right;">Forgot Password?</a>
+			<br>
+  				
+			<a href="signup.html" style="float: right;">Not Yet a Member? Sign Up</a>
+	</form>
+</body>
+<div class="row">
+		<footer >
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 footer">
+                <p class="copyright">Copyright © 2021 JikazeMicrofinanceGroup</p>
+            </div>
+        </footer> 
+  	</div>
+</html>
